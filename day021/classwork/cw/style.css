@@ -1,0 +1,13 @@
+#green-p{
+    color: green ; background-color: pink;
+}
+
+p{
+    color: red; font-size: 20px;
+}
+
+h1{
+    color: red; font-size: 20px;
+}
+
+/* პრიორიტეტები: 1)id  2)class  3)class selector */

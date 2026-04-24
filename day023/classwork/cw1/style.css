@@ -1,0 +1,33 @@
+/* 1 davaleba */
+#colors{
+    color: #ff0000;
+}
+
+#colors2{
+    color: rgb(0, 155, 0);
+}
+
+#colors3{
+    color: blue;
+}
+
+
+/* 2 davaleba */
+
+#maindiv{
+    width: 600px;
+    height: 200px;
+}
+
+#div1{
+    width: 150px;
+}
+
+#div2{
+    width: 50%;
+}
+
+#div3{
+    width: 150px;
+}
+
