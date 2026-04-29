@@ -1,0 +1,156 @@
+#header1{
+    color: purple;
+}
+
+#header2{
+    color: rgb(128, 0, 128);
+}
+
+#header3{
+    color: #800080;
+}
+
+
+#button1{
+    background-color: rgb(0, 255, 0);
+    border: 2px solid rgb(255, 165, 0);}
+
+#button2{
+    background-color: rgb(0, 255, 0);
+    border: 2px solid rgb(255, 165, 0);}
+
+#button3{
+    background-color: rgb(0, 255, 0);
+    border: 2px solid rgb(255, 165, 0);}
+
+
+#button4{
+    background-color: #A00000;
+    border: 1px double #0000ff;
+}
+
+#button5{
+    background-color: #A00000;
+    border: 1px double #0000ff;
+}
+
+
+
+#img1{
+    width: 100px; height: 100px; border: 2px solid rgb(154, 9, 9);
+}
+
+#img2{
+    width: 150px; height: 150px; border: 3px dashed rgb(0, 0, 255);
+}
+
+#img3{
+    width: 200px; height: 200px; border: 4px dotted rgb(221, 0, 255);
+}
+
+#img4{
+    width: 250px; height: 250px; border: 2px double rgb(0, 255, 0);
+}
+
+
+
+
+#container{
+    width: 200px; height: 200px; background-color: blue;
+}
+
+#child{
+    width: 50%; height: 50%;  
+}
+/* პროცენტის სიდიდე მის მშობელ ელემენტზეა გათვლილი ანუ მაგალითად როდესაც div ში ჩავსვით მეორე div 50% მაშინ იქნება მისი მშობელი დივის ნახევარი(50%) */
+
+
+
+/* #divv{
+    height: 300px; width: 300px; font-size: 35px;
+}
+
+#pp{
+    font-size: 150%;
+} */
+/*  ამ შემთხვევაში p თავის მშობელ ელემენტზე იქნება დიდი რადგან მშობელი ელემენტი სულ არის 100% */
+
+
+
+#pa{
+    text-decoration: underline dotted red;
+}
+
+#pb{
+    text-decoration: overline wavy blue;
+}
+
+#pc{
+    text-decoration: underline dashed;
+}
+
+
+
+
+
+#p11{
+    text-decoration: underline dotted;
+}
+
+#p22{
+    text-decoration: overline dashed;
+}
+
+#p33{
+    text-decoration: line-through wavy;
+}
+
+#p44{
+    text-decoration: underline double;
+}
+
+#p55{
+    text-decoration: underline solid;
+}
+
+
+
+
+
+
+#hh1{
+    text-decoration: underline;
+}
+#hh2{
+    text-decoration: overline;
+}
+#hh3{
+    text-decoration: blueviolet dashed line-through;
+}
+#em1{
+    text-decoration: wavy red underline;
+}
+#str1{
+    text-decoration: double underline;
+}
+
+
+
+
+
+
+#pp{
+    text-decoration: underline double;
+}
+#hh11{
+    text-decoration: line-through dashed;
+}
+#hh33{
+    text-decoration: underline solid;
+}
+#hh66{
+    text-decoration: overline dotted;
+}
+#emm1{
+    text-decoration: underline wavy;
+}
