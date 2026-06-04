@@ -1,0 +1,28 @@
+#div0{
+    display: flex;
+    width: 500px;
+    height: 700px;
+    border: solid 2px;
+    background-color: rgb(120, 120, 165);
+}
+
+.div1{
+    border: solid 2px; width: 100px; height: 100px;
+    flex-grow: 2;
+}
+
+.div2{
+    border: solid 2px; width: 100px; height: 100px;
+    flex-grow: 3;
+}
+
+.div3{
+    border: solid 2px; width: 100px; height: 100px;
+    flex-grow: 1;
+}
+
+.div4{
+    border: solid 2px; width: 100px; height: 100px;
+    flex-grow: 1;
+}
+
