@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.star{
+    width: 120px;
+    height: 120px;
+    background-color: gold;
+
+    transition: 1s;
+}
+
+.star:hover{
+    transform: rotate(360deg) scale(1.5);
+    border-radius: 50%;
+    background-color: crimson;
+}

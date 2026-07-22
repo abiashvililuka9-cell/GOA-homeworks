@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 3s;
+}
+
+.box1:hover{
+    transform: translateX(-100px);
+    background-color: purple;
+}

@@ -1,0 +1,36 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#div{
+    display: flex;
+}
+
+#div1{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+
+#div2{
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+}
+
+
+@media(max-width: 500px){
+    #div{
+        flex-direction: column;
+    }
+}

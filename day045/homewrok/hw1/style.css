@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: royalblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle{
+    width: 120px;
+    height: 120px;
+    background-color: burlywood;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+
+    animation: moveHorizontal 2s ease-in-out infinite alternate;
+}
+
+@keyframes moveHorizontal{
+    from{
+        left: 80px;
+    }
+
+    to{
+        left: 300px;
+    }
+}

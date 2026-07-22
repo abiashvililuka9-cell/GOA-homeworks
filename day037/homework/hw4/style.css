@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+    transition: 1s;
+}
+
+.box3:active{
+    transform: rotate(-190deg) scale(2);
+}

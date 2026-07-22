@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.loader{
+    display: flex;
+    gap: 20px;
+}
+
+.dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation: bounce 0.8s infinite alternate;
+}
+
+.red{
+    background-color: crimson;
+    animation-delay: 0s;
+}
+
+.blue{
+    background-color: deepskyblue;
+    animation-delay: 0.2s;
+}
+
+.yellow{
+    background-color: gold;
+    animation-delay: 0.4s;
+}
+
+@keyframes bounce{
+    from{
+        transform: translateY(0);
+    }
+
+    to{
+        transform: translateY(-40px);
+    }
+}

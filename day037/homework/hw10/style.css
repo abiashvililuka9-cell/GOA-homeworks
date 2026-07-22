@@ -1,0 +1,17 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background: royalblue;
+
+    transition: 1.5s;
+}
+
+.box:hover{
+    transform:
+        rotate(720deg)
+        scale(1.5)
+        translateY(-50px);
+
+    border-radius: 50%;
+    background: crimson;
+}

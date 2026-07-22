@@ -1,0 +1,43 @@
+/* რესპონსივი არის ვებგვერდის ისეთი მოწყობა, რომელიც სხვადასხვა ზომის ეკრანზე სწორად და ლამაზად გამოჩნდება. */
+ 
+
+
+/* @media საშუალებას გვაძლევს
+ეკრანის ზომის მიხედვით შევცვალოთ
+ელემენტების სტილი. */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* min-width:
+სტილი იმუშავებს მაშინ, როცა ეკრანის სიგანე მითითებულ მნიშვნელობაზე მეტია ან ტოლია. */
+
+
+
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+}

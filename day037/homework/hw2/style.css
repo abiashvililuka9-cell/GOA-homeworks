@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    transition:
+        transform 3s,
+        background-color 2s;
+}
+
+.box2:hover{
+    transform: translateY(200px) rotate(120deg);
+    background-color: orange;
+}

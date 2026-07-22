@@ -6,12 +6,12 @@
 
 
 
-# count, len, max, min, sorted, sum, list
+# # count, len, max, min, sorted, sum, list
 
 
 
 
-# append, remove, insert, pop
+# # append, remove, insert, pop
 
 
 
@@ -28,13 +28,16 @@
 
 
 
-# tuple2 = (1, 2, 3, 4.5, )
+# numbers = (1, 2.5, 3, 3.5, 4)
+
+# num1, *rest = numbers
+
+# print("num1 =", num1)
+# print("rest =", rest)
 
 
 
 
-list1 = 'a', 'b', 'g'
-print(' '.join(list1))
+fruits = ('Apple', 'Pomegranate', 'Cherry', 'Strawberry', 'Blueberry')
+*fruit1, fruit2, fruit3 = fruits #fruit1 = apple, Pomegranate, Cherry        fruit2 = Strawberry      fruit3 = Blueberry
 
-list2 = 'a b g'
-print(list2.split())

@@ -1,0 +1,47 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(114, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#div{
+    display: flex;
+}
+
+
+#div1{
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    width: 500px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+#div2{
+    background-color: rgba(0, 0, 53, 0.661);
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+#button1{
+    height: 30px;
+    border-radius: 3px;
+}
+
+

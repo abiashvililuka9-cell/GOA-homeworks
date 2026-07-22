@@ -1,0 +1,40 @@
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+
+#b1:hover{
+    width: 80px;
+    height: 80px;
+    transform: translate(-160px, -20px);
+}
+
+#b2:active{
+    width: 120px;
+    height: 120px;
+    transform: translate(60px, -45px);
+}
+
+
+
+#div{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    transition: transform 1s;
+    transition: background-color 2s;
+    
+}
+
+#div:hover{
+    transform: translateY(200px);
+    transform: rotate(120deg);
+    background-color: orange;
+}
+
+     /* <!-- შექმენით Transform ეფექტი, სადაც Div-ი 200px-ით ქვემოთ გადაადგილდება 1 წამის განმავლობაში, ბრუნავს საათის ისრის მიმართულებით 120 გრადუსით 3 წამის
+       განმავლობაში და ლურჯი ფერიდან ნარინჯისფერში გადადის 2 წამის განმავლობაში. --> */

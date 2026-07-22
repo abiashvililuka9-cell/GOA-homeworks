@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.btn{
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.btn:active{
+    transform: scale(1.5);
+}
