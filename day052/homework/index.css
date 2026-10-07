@@ -1,0 +1,770 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080b0e;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    width: calc(100% - 32px);
+    height: 710px;
+
+    margin: 16px auto 0;
+
+    position: relative;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    background-image:
+
+        /* qveidan muqi */
+        linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.98) 0%,
+            rgba(0, 0, 0, 0.75) 25%,
+            rgba(0, 0, 0, 0.15) 70%
+        ),
+
+        /* marcxnidan muqi */
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.90) 0%,
+            rgba(0, 0, 0, 0.55) 35%,
+            rgba(0, 0, 0, 0.05) 75%
+        ),
+
+        url("https://i.ytimg.com/vi/Mzw2ttJD2qQ/hqdefault.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+/* =========================
+   HERO CONTENT
+========================= */
+
+.hero-content {
+    position: absolute;
+
+    left: 38px;
+    bottom: 32px;
+
+    width: 70%;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.hero-content h1 {
+    color: #7690d4;
+
+    font-size: 34px;
+
+    line-height: 0.82;
+
+    letter-spacing: 3px;
+
+    font-weight: 900;
+
+    margin-bottom: 20px;
+
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.hero-content p {
+    max-width: 1300px;
+
+    color: #d0d0d0;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+
+    font-weight: 600;
+
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.buttons {
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+}
+
+
+/* PLAY */
+
+.play-button {
+    width: 101px;
+    height: 47px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    background: white;
+
+    color: black;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.play-button:hover {
+    background: #dddddd;
+
+    transform: scale(1.03);
+}
+
+
+/* PLAY ICON */
+
+.play-button span {
+    font-size: 12px;
+}
+
+
+/* ADD */
+
+.add-button {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(255, 255, 255, 0.16);
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-size: 27px;
+
+    font-weight: 300;
+
+    transition: 0.2s;
+}
+
+.add-button:hover {
+    background: rgba(255, 255, 255, 0.28);
+}
+
+
+/* =========================
+   MOVIES SECTION
+========================= */
+
+.movies {
+    width: calc(100% - 32px);
+
+    margin: 40px auto 60px;
+}
+
+.movies h2 {
+    font-size: 26px;
+
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* =========================
+   MOVIE SECTIONS
+========================= */
+
+.movies {
+    width: calc(100% - 32px);
+
+    margin: 35px auto 60px;
+}
+
+
+/* თითოეული სექცია */
+
+.movie-section {
+    margin-bottom: 38px;
+}
+
+
+/* სათაური + ისრები */
+
+.section-header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 12px;
+}
+
+
+.section-header h2 {
+    font-size: 20px;
+
+    font-weight: 700;
+
+    color: #eeeeee;
+}
+
+
+/* =========================
+   SLIDER BUTTONS
+========================= */
+
+.slider-buttons {
+    display: flex;
+
+    margin-right: 0;
+}
+
+
+.slider-buttons button {
+    width: 30px;
+    height: 28px;
+
+    border: none;
+
+    background: #292929;
+
+    color: #aaaaaa;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+
+.slider-buttons button:first-child {
+    border-radius: 8px 0 0 8px;
+
+    border-right: 1px solid #444;
+}
+
+
+.slider-buttons button:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+
+.slider-buttons button:hover {
+    background: #3a3a3a;
+
+    color: white;
+}
+
+
+/* =========================
+   MOVIE ROW
+========================= */
+
+.movie-row {
+    display: flex;
+
+    gap: 6px;
+
+    overflow: hidden;
+}
+
+
+/* =========================
+   MOVIE CARD
+========================= */
+
+.movie-card {
+    flex: 1;
+
+    min-width: 0;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   POSTER
+========================= */
+
+.poster {
+    width: 100%;
+
+    aspect-ratio: 0.68;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 10px;
+
+    background: #171717;
+}
+
+
+.poster img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform 0.25s ease;
+}
+
+
+.movie-card:hover .poster img {
+    transform: scale(1.04);
+}
+
+
+/* =========================
+   RATING
+========================= */
+
+.rating {
+    position: absolute;
+
+    top: 5px;
+    left: 5px;
+
+    z-index: 2;
+
+    padding: 2px 5px;
+
+    border-radius: 5px;
+
+    background: rgba(0, 0, 0, 0.75);
+
+    color: #eeeeee;
+
+    font-size: 11px;
+
+    font-weight: 600;
+}
+
+
+/* ვარსკვლავი */
+
+.rating::first-letter {
+    color: #66c96b;
+}
+
+
+/* =========================
+   MOVIE INFO
+========================= */
+
+.movie-info {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 7px;
+
+    color: #777777;
+
+    font-size: 9px;
+
+    font-weight: 600;
+}
+
+
+/* =========================
+   MOVIE TITLE
+========================= */
+
+.movie-card h3 {
+    margin-top: 5px;
+
+    color: #eeeeee;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+
+/* =========================
+   STUDIOS
+========================= */
+
+.studios {
+    width: calc(100% - 32px);
+
+    margin: 0 auto 60px;
+}
+
+.studios h2 {
+    margin-bottom: 18px;
+
+    color: #eeeeee;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* =========================
+   STUDIO GRID
+========================= */
+
+.studio-grid {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+
+    gap: 10px;
+}
+
+
+/* =========================
+   STUDIO CARD
+========================= */
+
+.studio-card {
+    width: 100%;
+
+    aspect-ratio: 1.65;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+
+.studio-card:hover {
+    transform: scale(1.02);
+
+    background: #ffffff;
+}
+
+
+/* =========================
+   STUDIO LOGO
+========================= */
+
+.studio-card img {
+    width: 85%;
+    height: 85%;
+
+    object-fit: contain;
+
+    display: block;
+
+    transition: transform 0.2s ease;
+}
+
+
+.studio-card:hover img {
+    transform: scale(1.04);
+}
+
+
+
+
+
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+    position: fixed;
+
+    top: 0;
+    left: -250px;
+
+    width: 260px;
+    height: 100vh;
+
+    z-index: 9999;
+
+    padding: 28px 10px 20px;
+
+    background: #080808;
+
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+
+    transition: left 0.3s ease;
+}
+
+
+/* patara nawili ro chandes */
+
+.sidebar::after {
+    content: "";
+
+    position: absolute;
+
+    top: 50%;
+    right: -8px;
+
+    width: 8px;
+    height: 70px;
+
+    transform: translateY(-50%);
+
+    background: #151515;
+
+    border-radius: 0 8px 8px 0;
+}
+
+
+/* მაუსის მიტანისას გამოიწევა */
+
+.sidebar:hover {
+    left: 0;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.sidebar-logo {
+    margin-left: 10px;
+    margin-bottom: 38px;
+
+    color: #ffffff;
+
+    font-size: 27px;
+    font-weight: 800;
+
+    letter-spacing: -1px;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+.sidebar-menu {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+
+/* =========================
+   MENU ITEMS
+========================= */
+
+.sidebar-item,
+.sidebar-category {
+    width: 100%;
+    min-height: 42px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 13px;
+
+    padding: 0 12px;
+
+    border-radius: 7px;
+
+    color: #cfcfcf;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+
+/* მენიუ */
+
+.sidebar-item {
+    cursor: pointer;
+}
+
+
+/* Hover */
+
+.sidebar-item:hover,
+.sidebar-category:hover {
+    background: #202020;
+
+    color: #ffffff;
+}
+
+
+/* =========================
+   ICONS
+========================= */
+
+.sidebar-icon,
+.category-icon {
+    width: 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    color: #d0d0d0;
+
+    font-size: 20px;
+
+    font-weight: 400;
+}
+
+
+/* aiqonebi */
+
+.category-icon {
+    font-size: 16px;
+}
+
+
+/* =========================
+   ACTIVE HOME
+========================= */
+
+.sidebar-item:first-child {
+    background: #292929;
+
+    color: #ffffff;
+}
+
+
+.sidebar-item:first-child:hover {
+    background: #353535;
+}
+
+
+
+.copy{
+  font-size: 12px;   
+  font-weight: 300;    
+}
+
+
+/* =========================
+   MOVIES - TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+    .movie-row {
+        display: flex;
+        gap: 8px;
+
+        overflow: hidden;
+    }
+
+    .movie-card {
+        flex: 0 0 calc(25% - 6px);
+        min-width: 0;
+    }
+
+}
+
+
+/* =========================
+   MOVIES - MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .movie-row {
+        display: flex;
+        gap: 8px;
+
+        overflow: hidden;
+    }
+
+    .movie-card {
+        flex: 0 0 calc(33.333% - 6px);
+        min-width: 0;
+    }
+
+}
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,82 @@
+.container-grow-1 {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container-grow-1 div {
+    background-color: #3498db;
+    margin: 5px;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.container-grow-1 .item-grow-large {
+    flex-grow: 3;
+}
+
+.container-grow-2 {
+    display: flex;
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container-grow-2 div {
+    background-color: #2ecc71;
+    margin: 5px;
+    padding: 15px;
+    flex-grow: 0;
+}
+
+.container-grow-2 .item-grow-middle {
+    flex-grow: 1;
+}
+
+.direction-container {
+    display: flex;
+    background-color: #d5dbdb;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.direction-container div {
+    background-color: #e74c3c;
+    margin: 5px;
+    padding: 15px;
+    width: 40px;
+    text-align: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.wrap-gap-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 300px;
+    background-color: #f5eef8;
+    padding: 10px;
+}
+
+.wrap-gap-container div {
+    background-color: #9b59b6;
+    padding: 20px;
+    width: 80px;
+    text-align: center;
+}
